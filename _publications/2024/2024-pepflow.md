@@ -19,7 +19,7 @@ authors:
   - Shitong Luo
   - Zhizhou Ren
   - Jian Peng
-  - Jiahan Ma
+  - Jianzhu Ma
 links:
   paper: https://arxiv.org/abs/2406.00735
   Code: https://github.com/Ced3-han/PepFlowww

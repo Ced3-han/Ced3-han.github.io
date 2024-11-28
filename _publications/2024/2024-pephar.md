@@ -10,7 +10,7 @@ pub_post:       'Under review.'
 
 abstract: >-
   The first multi-stage method combining energy-based models with autoregressive dihedral prediction for peptide binder design.
-cover:          /assets/images/covers/2024-pephar.png
+cover:          /assets/images/covers/2024-pephar.jpg
 authors:
   - Jiahan Li*
   - Tong Chen*

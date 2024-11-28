@@ -4,7 +4,7 @@ date:           2024-09-12 00:05:00 +0800
 selected:       true
 # pub:            "International Conference on Machine Learning (ICML)"
 # pub_pre:        "Submitted to "
-pub_post:       'Under review.'
+pub_post:       'Under Review.'
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
 # pub_date:       "2024"
 

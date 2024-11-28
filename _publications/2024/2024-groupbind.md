@@ -1,5 +1,5 @@
 ---
-title:          "Orientation-Aware Graph Neural Networks for Protein Structure Representation Learning"
+title:          "Group Ligands Docking to Protein Pockets"
 date:           2024-09-12 00:00:00 +0800
 selected:       false
 pub:            "Under Review"

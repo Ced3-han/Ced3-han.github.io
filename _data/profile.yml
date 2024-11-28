@@ -21,7 +21,7 @@ wechat_prompt: >-
 short_bio: >-
   Hi, my name is Jiahan Li (李嘉涵), but you can also call me Ced. I earned my B.S. degree from Yuanpei College at Peking University in 2023. I also worked as an R&D scientist at an AI biotech startup for three years.<br><br>
 
-  My research interests lie at the intersection of generative models and geometric learning. Currently, I am focusing on molecular design, discrete generation, and equivariant models. I am also interested in multi-modal large language models and causal reasoning.<br><br>
+  I am particularly interested in integrating scientific inductive biases through geometric learning and generative models to tackle new challenges in AI for Science, with a focus on functional molecule design. I also have a broad interest in other domains, including 3D vision and multimodal language models.<br><br>
 
   I love music and work as a hip-hop producer.<br><br>
 
@@ -35,11 +35,22 @@ education:
   position: B.S. in Data Science
   date: Sep. 2019 - Jul. 2023
 
-# experience:
-# - name: Peking University
-#   logo: /assets/images/badges/PKU_red.png
-#   position: Research Intern
-#   date: Sep. 2021 - Jul. 2021
+experience:
+- name: Peking University
+  logo: /assets/images/badges/PKU_red.png
+  position: Research Intern
+  date: Mar. 2021 - Aug. 2021
+
+- name: Helixon Inc.
+  # logo: /assets/images/badges/PKU_red.png
+  position: Research Scientist & Project Lead
+  date: Aug. 2021 - May. 2024
+
+- name: Tsinghua University
+  # logo: /assets/images/badges/PKU_red.png
+  position: Research Scientist 
+  date: Aug. 2021 - Present
+
 
 
 awards:

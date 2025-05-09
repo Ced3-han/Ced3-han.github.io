@@ -19,18 +19,17 @@ wechat_prompt: >-
 # orcid: 0000-0000-0000-0000
 
 short_bio: >-
-  Hi, my name is Jiahan Li (李嘉涵), but you can also call me Ced. I earned my B.S. degree from Yuanpei College at Peking University in 2023. 
+  Hi, my name is Jiahan Li (李嘉涵), but you can also call me Ced. I am an incomind Ph.D. student at [NYU Courant](https://cims.nyu.edu/dynamic/), advised by [Rob Fergus](https://cs.nyu.edu/~fergus/pmwiki/pmwiki.php).
+  
+  Previously, I earned my B.S. degree from Yuanpei College at Peking University in 2023. I also spent three years at a AI-biotech startup, where I worked with [Jianzhu Ma](https://majianzhu.com/) and [Jian Peng](https://jianpeng.web.engr.illinois.edu/). 
+
+  I am particularly interested in integrating scientific inductive biases through geometric learning and generative models to tackle new challenges in AI for Science. I also have a broad interest in 3D vision and large language models.<br><br>
+
+  I love music and work as a hip-hop producer.<br><br>
 
 portrait_url: /assets/images/photos/me.jpg
 portrait_caption: >-
   Me without glasses :)
-
-
-# I also worked as an R&D scientist at an AI biotech startup for three years.<br><br>
-
-# I am particularly interested in integrating scientific inductive biases through geometric learning and generative models to tackle new challenges in AI for Science, with a focus on functional molecule design. I also have a broad interest in other domains, including 3D vision and multimodal language models.<br><br>
-
-# I love music and work as a hip-hop producer.<br><br>
 
 education:
 - name: Peking University
@@ -38,21 +37,21 @@ education:
   position: B.S. in Data Science
   date: Sep. 2019 - Jul. 2023
 
-# experience:
-# - name: Peking University
-#   logo: /assets/images/badges/PKU_red.png
-#   position: Research Intern
-#   date: Mar. 2021 - Aug. 2021
+experience:
+- name: Peking University
+  logo: /assets/images/badges/PKU_red.png
+  position: Research Intern
+  date: Mar. 2021 - Aug. 2021
 
-# - name: Helixon Inc.
-#   logo: /assets/images/badges/helixon.png
-#   position: Research Engineer
-#   date: Aug. 2021 - May. 2024
+- name: Helixon Inc.
+  logo: /assets/images/badges/helixon.png
+  position: Research Engineer
+  date: Aug. 2021 - May. 2024
 
-# - name: Tsinghua University
-#   logo: /assets/images/badges/THU_purple.png
-#   position: Research Assistant 
-#   date: June. 2024 - Present
+- name: Tsinghua University
+  logo: /assets/images/badges/THU_purple.png
+  position: Research Assistant 
+  date: June. 2024 - Present
 
 
 

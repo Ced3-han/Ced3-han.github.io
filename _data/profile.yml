@@ -19,13 +19,13 @@ wechat_prompt: >-
 # orcid: 0000-0000-0000-0000
 
 short_bio: >-
-  Hi, my name is Jiahan Li (李嘉涵), but you can also call me Ced. I am an incoming Ph.D. student at [NYU Courant](https://cims.nyu.edu/dynamic/), advised by [Rob Fergus](https://cs.nyu.edu/~fergus/pmwiki/pmwiki.php).<br><br>
+  Hi, my name is Jiahan Li (李嘉涵), but you can also call me Ced. I am an incoming Ph.D. student at <a href="https://cims.nyu.edu/dynamic/">NYU Courant</a>, advised by <a href="https://cs.nyu.edu/~fergus/pmwiki/pmwiki.php">Rob Fergus</a>.<br><br>
   
-  Previously, I earned my B.S. degree from Yuanpei College at Peking University in 2023. I also spent three years at an AI-biotech startup, where I worked with [Jianzhu Ma](https://majianzhu.com/) and [Jian Peng](https://jianpeng.web.engr.illinois.edu/).<br><br> 
+  Previously, I earned my B.S. degree from Yuanpei College at Peking University in 2023. I also spent three years at an AI-biotech startup, where I worked with <a href="https://majianzhu.com/">Jianzhu Ma</a> and <a href="https://jianpeng.web.engr.illinois.edu/">Jian Peng</a>.<br><br> 
 
   I am particularly interested in integrating scientific inductive biases through geometric learning and generative models to tackle new challenges in AI for Science. I also have a broad interest in 3D vision and large language models.<br><br>
 
-  I love music and work as a hip-hop producer.<br><br>
+  I love music and work as a hip-hop producer/DJ.<br><br>
 
 portrait_url: /assets/images/photos/me.jpg
 portrait_caption: >-

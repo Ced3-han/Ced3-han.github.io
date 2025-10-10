@@ -1,7 +1,7 @@
 ---
 title:          " Designing Cyclic Peptides via Harmonic SDE with Atom-Bond Modeling "
 date:           2025-05-12 00:01:00 +0800
-selected:       true
+selected:       false
 pub:            "International Conference on Machine Learning (ICML)"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'

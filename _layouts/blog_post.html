@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+<div class="row my-4">
+    <div class="col-12 col-lg-10 mx-auto">
+        <!-- Blog Post Header -->
+        <article class="bg-white shadow-sm rounded-sm p-4 mb-4">
+            <header class="mb-4">
+                <h1 class="mb-3">{{ page.title }}</h1>
+                <div class="text-muted mb-3">
+                    <i class="far fa-calendar-alt"></i>
+                    <time datetime="{{ page.date | date_to_xmlschema }}">
+                        {{ page.date | date: "%Y年%m月%d日" }}
+                    </time>
+                    {% if page.category %}
+                    <span class="mx-2">|</span>
+                    <i class="fas fa-folder"></i> {{ page.category }}
+                    {% endif %}
+                </div>
+                {% if page.tags and page.tags.size > 0 %}
+                <div class="mb-3">
+                    <i class="fas fa-tags"></i>
+                    {% for tag in page.tags %}
+                    <span class="badge badge-secondary">{{ tag }}</span>
+                    {% endfor %}
+                </div>
+                {% endif %}
+                {% if page.excerpt %}
+                <p class="lead text-muted">{{ page.excerpt }}</p>
+                {% endif %}
+            </header>
+
+            <!-- Blog Post Content -->
+            <div class="blog-content">
+                {{ content }}
+            </div>
+        </article>
+
+        <!-- Back to Blog List -->
+        <div class="text-center my-4">
+            <a href="/blog" class="btn btn-outline-primary">
+                <i class="fas fa-arrow-left"></i> 返回博客列表
+            </a>
+        </div>
+    </div>
+</div>

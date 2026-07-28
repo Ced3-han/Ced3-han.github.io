@@ -104,15 +104,11 @@ img {
 }
 
 .brand-mark {
-    display: inline-grid;
+    display: block;
+    flex: 0 0 auto;
     width: 2rem;
     height: 2rem;
-    place-items: center;
-    border-radius: 9px;
-    background: var(--ink);
-    color: #fff;
-    font-size: 0.72rem;
-    letter-spacing: 0.04em;
+    object-fit: contain;
 }
 
 .navbar-nav {

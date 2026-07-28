@@ -21,4 +21,5 @@ authors:
 - Jianzhu Ma
 links:
   Paper: https://openreview.net/forum?id=zDC3iCBxJb
+  AlphaXiv: https://www.alphaxiv.org/abs/2501.15055
 ---

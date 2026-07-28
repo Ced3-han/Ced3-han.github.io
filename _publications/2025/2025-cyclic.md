@@ -22,5 +22,6 @@ authors:
   - Quanquan Gu
 links:
   Paper: https://arxiv.org/abs/2505.21452
+  AlphaXiv: https://www.alphaxiv.org/abs/2505.21452
   Proceedings: https://icml.cc/virtual/2025/poster/45948
 ---

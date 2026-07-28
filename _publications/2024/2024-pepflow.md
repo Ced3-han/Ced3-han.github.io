@@ -22,6 +22,7 @@ authors:
   - Jianzhu Ma
 links:
   paper: https://arxiv.org/abs/2406.00735
+  AlphaXiv: https://www.alphaxiv.org/abs/2406.00735
   Code: https://github.com/Ced3-han/PepFlowww
   Proceedings: https://icml.cc/virtual/2024/poster/34958
 ---

@@ -24,6 +24,7 @@ authors:
   - Jianzhu Ma
 links:
   paper: https://arxiv.org/abs/2411.18463
-  # Code: https://github.com/Ced3-han/PepFlowww
+  AlphaXiv: https://www.alphaxiv.org/abs/2411.18463
+  Code: https://github.com/Ced3-han/PepHAR
   # Proceedings: https://icml.cc/virtual/2024/poster/34958
 ---

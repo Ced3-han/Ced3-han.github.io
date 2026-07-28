@@ -10,3 +10,30 @@ This is a GitHub Pages template for personal academic homepages. The template is
 
 Click [here](https://luost.me/academic-homepage/) to see the preview of the template.
 
+## Local development
+
+```bash
+bundle install --path vendor/bundle
+bundle exec jekyll serve
+```
+
+Then open `http://127.0.0.1:4000`.
+
+## Writing a blog post
+
+Create a Markdown file in `_posts` named `YYYY-MM-DD-short-title.md`:
+
+```yaml
+---
+title: "Post title"
+description: "A one-sentence summary shown on the blog index."
+tags:
+  - Research
+reading_time: 4
+---
+
+Write the post in Markdown.
+```
+
+Jekyll publishes it at `/blog/YYYY/MM/DD/short-title/` and adds it to the
+Blog page and Atom feed automatically.

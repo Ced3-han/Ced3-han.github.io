@@ -3,14 +3,12 @@ secondary_name: "Ced"
 navbar_name: "Jiahan Li"
 
 positions:
-- name: Peking University
-- logo: /assets/images/badges/PKU_red.png
-  name: B.S., Peking University (2023)
+- name: Ph.D. Student in Computer Science, NYU Courant
 
 email: "ced3ljhypc@gmail.com"
 # cv_link: link-to-your-cv-file
 gscholar: a3bwLKMAAAAJ
-# github: Ced3-han
+github: Ced3-han
 # twitter: Ced3LJH
 # wechat_qrcode: /assets/images/etc/wechat.jpg
 # wechat_prompt: >-
@@ -19,19 +17,24 @@ gscholar: a3bwLKMAAAAJ
 # orcid: 0000-0000-0000-0000
 
 short_bio: >-
-  Hi, my name is Jiahan Li (李嘉涵), but you can also call me Ced. I am a first-year CS Ph.D. student at <a href="https://cims.nyu.edu/dynamic/">NYU Courant</a>, advised by <a href="https://www.linkedin.com/in/rob-fergus-057808364/">Rob Fergus</a> and <a href="https://kyunghyuncho.me/">Kyunghyun Cho</a>.<br><br>
+  Hi, I am Jiahan Li (李嘉涵), also known as Ced. I am a CS Ph.D. student at <a href="https://cims.nyu.edu/dynamic/">NYU Courant</a>, advised by <a href="https://www.linkedin.com/in/rob-fergus-057808364/">Rob Fergus</a> and <a href="https://kyunghyuncho.me/">Kyunghyun Cho</a>.<br><br>
   
   Previously, I earned my B.S. degree from Yuanpei College at Peking University in 2023. I also spent three years at an AI-biotech startup, where I worked with <a href="https://majianzhu.com/">Jianzhu Ma</a> and <a href="https://jianpeng.web.engr.illinois.edu/">Jian Peng</a>.<br><br> 
 
-  I am particularly interested in integrating scientific insights through generative models to tackle new challenges in World Modeling and Multimodal Large Language Models.<br><br>
+  My research focuses on generative models for world modeling and multimodal learning, with a particular interest in incorporating scientific structure and prior knowledge.<br><br>
 
-  I love music and work as a hip-hop producer/DJ.<br><br>
+  Outside research, I produce hip-hop music and DJ.<br><br>
 
 portrait_url: /assets/images/photos/me.jpg
 portrait_caption: >-
   Me without glasses :)
 
 education:
+- name: NYU Courant Institute
+  logo: /assets/images/badges/nyu.png
+  position: Ph.D. in Computer Science
+  date: Sep. 2025 - Present
+
 - name: Peking University
   logo: /assets/images/badges/PKU_red.png
   position: B.S. in Data Science
@@ -43,7 +46,7 @@ experience:
   position: Research Intern
   date: Mar. 2021 - Aug. 2021
 
-- name: Helixon Inc.
+- name: Helixon Inc. (Earendil Labs)
   logo: /assets/images/badges/helixon.png
   position: Research Engineer
   date: Aug. 2021 - May. 2024
@@ -53,6 +56,11 @@ experience:
   position: Research Engineer 
   date: June. 2024 - Present
 
+- name: Google Research
+  logo: /assets/images/badges/google.png
+  position: Student Researcher
+  date: May. 2026 - Present
+
 
 
 # awards:
@@ -60,4 +68,3 @@ experience:
 #   date: 2018 - 2019
 # - name: Gold medal in the Chinese National Biology Olympiad, 10th
 #   date: 2018
-

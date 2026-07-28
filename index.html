@@ -1,12 +1,11 @@
 ---
 layout: default
-title : Homepage
+title: Home
 navbar_title: Home
+description: Jiahan Li is a Computer Science Ph.D. student at NYU Courant working on generative models, world modeling, and multimodal learning.
 num_selected: 10
 ---
 {% include widgets/profile_card.html %}
-
-{% include widgets/url_debug_message.html %}
 
 {% if site.data.display.homepage.show_experience %}
 {% include widgets/experience_card.html %}
@@ -24,6 +23,6 @@ num_selected: 10
 {% 
     include widgets/publication_card.html 
     publications=pubs limit=page.num_selected 
-    title='<i class="fas fa-star"></i> Selected Publications'
+    title='Selected Publications'
 %}
 {% endif %}

@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<article class="post-shell">
+    <header class="post-header">
+        <p class="eyebrow">Research Notes</p>
+        <h1>{{ page.title }}</h1>
+        <div class="post-meta">
+            <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+            {% if page.reading_time %}<span> · {{ page.reading_time }} min read</span>{% endif %}
+        </div>
+        {% if page.tags %}
+        <div class="post-tags" aria-label="Article tags">
+            {% for tag in page.tags %}
+            <span class="blog-tag">{{ tag }}</span>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </header>
+
+    <div class="post-content">
+        {{ content }}
+    </div>
+</article>
+
+<nav class="post-navigation" aria-label="Blog navigation">
+    <a href="{{ '/blog/' | relative_url }}"><i class="fas fa-arrow-left" aria-hidden="true"></i> All posts</a>
+    {% if page.previous %}
+    <a href="{{ page.previous.url | relative_url }}">Previous post <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+    {% endif %}
+</nav>

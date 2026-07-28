@@ -1,6 +1,6 @@
 ---
 title:          "Orientation-Aware Graph Neural Networks for Protein Structure Representation Learning"
-date:           2022-03-05 00:01:00 +0800
+date:           2025-04-26 00:01:00 -0400
 selected:       true
 pub:            "International Conference on Research in Computational Molecular Biology (RECOMB)"
 # pub_pre:        "Submitted to "
@@ -18,5 +18,7 @@ authors:
 - Jian Peng
 - Jianzhu Ma
 links:
-  Paper: https://openreview.net/forum?id=WcTLZrpzfe
+  Paper: https://arxiv.org/abs/2201.13299
+  Journal: https://doi.org/10.1177/15578666251406300
+  Code: https://github.com/Ced3-han/OAGNN
 ---

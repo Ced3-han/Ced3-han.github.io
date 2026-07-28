@@ -1,8 +1,8 @@
 ---
 title:          "Hotspot-Driven Peptide Design via Multi-Fragment Autoregressive Extension"
-date:           2024-11-13 00:05:00 +0800
+date:           2025-01-22 00:05:00 -0500
 selected:       true
-pub:            "International Conference on Learning Representations（ICLR)"
+pub:            "International Conference on Learning Representations (ICLR)"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under Review.'
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'

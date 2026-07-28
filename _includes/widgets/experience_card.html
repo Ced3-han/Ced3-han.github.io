@@ -1,76 +1,73 @@
-<div class="row mt-3">
-    <div class="col">
-        <div class="card border-0 shadow-sm bg-white">
-            <div class="card-body p-4">
-
-                <div class="row">
-                    {% if site.data.profile.education %}
-                    <div class="col-md-6">
-                        <div class="mx-2 my-1">
-                            <h6>Education</h6>
-                            <ul class="list-unstyled mb-1">
-                                {% for item in site.data.profile.education %}
-                                <li class="media mb-1">
-                                    <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 18px;" class="mr-1 mt-1">
-                                    <div class="media-body">
-                                        <div>{{ item.name }}</div>
-                                        <div class="small">{{ item.dept }}</div>
-                                        <div class="small d-flex">
-                                            <div>{{ item.position }}</div>
-                                            <div class="mt-auto ml-auto no-break"><em>{{ item.date }}</em></div>
-                                        </div>
-                                    </div>
-                                </li>
-                                {% endfor %}
-                            </ul>
+<section class="resume-card" aria-label="Education and experience">
+    <div class="row">
+        {% if site.data.profile.education %}
+        <div class="col-md-6 resume-column">
+            <h2 class="section-heading">
+                <span class="section-icon"><i class="fas fa-graduation-cap" aria-hidden="true"></i></span>
+                Education
+            </h2>
+            <ul class="timeline-list">
+                {% for item in site.data.profile.education %}
+                <li>
+                    {% if item.logo %}
+                    <img src="{{ item.logo | relative_url }}" alt="" width="32" height="32">
+                    {% else %}
+                    <span class="timeline-monogram" aria-hidden="true">{{ item.abbr }}</span>
+                    {% endif %}
+                    <div class="timeline-content">
+                        <div class="timeline-title">{{ item.name }}</div>
+                        {% if item.dept %}<div class="timeline-detail">{{ item.dept }}</div>{% endif %}
+                        <div class="timeline-meta">
+                            <span>{{ item.position }}</span>
+                            <time>{{ item.date }}</time>
                         </div>
                     </div>
-                    {% endif %}
-
-
-                    {% if site.data.profile.awards %}
-                    <div class="col-md-6">
-                        <div class="mx-2 my-1">
-                            <h6>Honors & Awards</h6>
-                            <ul class="list small pl-3 mb-1">
-                                {% for item in site.data.profile.awards %}
-                                <li>
-                                    <div class="d-flex">
-                                        <div>{{ item.name }}</div>
-                                        <div class="ml-auto mt-auto no-break"><em>{{ item.date }}</em></div>
-                                    </div>
-                                </li>
-                                {% endfor %}
-                            </ul>
-                        </div>
-                    </div>
-                    {% endif %}
-
-                    {% if site.data.profile.experience %}
-                    <div class="col-md-6">
-                        <div class="mx-2 my-1">
-                            <h6>Experience</h6>
-                            <ul class="list-unstyled mb-1">
-                                {% for item in site.data.profile.experience %}
-                                <li class="media mb-1">
-                                    <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 18px;" class="mr-1 mt-1">
-                                    <div class="media-body">
-                                        <div>{{ item.name }}</div>
-                                        <div class="small">{{ item.dept }}</div>
-                                        <div class="small d-flex">
-                                            <div>{{ item.position }}</div>
-                                            <div class="mt-auto ml-auto no-break"><em>{{ item.date }}</em></div>
-                                        </div>
-                                    </div>
-                                </li>
-                                {% endfor %}
-                            </ul>
-                        </div>
-                    </div>
-                    {% endif %}
-                </div>
-
-            </div>
+                </li>
+                {% endfor %}
+            </ul>
         </div>
+        {% endif %}
+
+        {% if site.data.profile.experience %}
+        <div class="col-md-6 resume-column">
+            <h2 class="section-heading">
+                <span class="section-icon"><i class="fas fa-flask" aria-hidden="true"></i></span>
+                Experience
+            </h2>
+            <ul class="timeline-list">
+                {% for item in site.data.profile.experience %}
+                <li>
+                    {% if item.logo %}
+                    <img src="{{ item.logo | relative_url }}" alt="" width="32" height="32">
+                    {% else %}
+                    <span class="timeline-monogram" aria-hidden="true">{{ item.abbr }}</span>
+                    {% endif %}
+                    <div class="timeline-content">
+                        <div class="timeline-title">{{ item.name }}</div>
+                        {% if item.dept %}<div class="timeline-detail">{{ item.dept }}</div>{% endif %}
+                        <div class="timeline-meta">
+                            <span>{{ item.position }}</span>
+                            <time>{{ item.date }}</time>
+                        </div>
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
     </div>
-</div>
+
+    {% if site.data.profile.awards %}
+    <div class="resume-awards">
+        <h2 class="section-heading">
+            <span class="section-icon"><i class="fas fa-award" aria-hidden="true"></i></span>
+            Honors &amp; Awards
+        </h2>
+        <ul>
+            {% for item in site.data.profile.awards %}
+            <li><span>{{ item.name }}</span><time>{{ item.date }}</time></li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
+</section>

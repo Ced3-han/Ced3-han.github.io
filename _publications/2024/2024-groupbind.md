@@ -1,8 +1,8 @@
 ---
 title:          "Group Ligands Docking to Protein Pockets"
-date:           2024-11-12 00:00:00 +0800
+date:           2025-01-22 00:00:00 -0500
 selected:       false
-pub:            "International Conference on Learning Representations（ICLR)"
+pub:            "International Conference on Learning Representations (ICLR)"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under Review.'
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
@@ -19,6 +19,6 @@ authors:
 - Yunan Luo
 - Jian Peng
 - Jianzhu Ma
-# links:
-#   Paper: https://openreview.net/forum?id=WcTLZrpzfe
+links:
+  Paper: https://openreview.net/forum?id=zDC3iCBxJb
 ---

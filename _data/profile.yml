@@ -19,9 +19,9 @@ github: Ced3-han
 short_bio: >-
   Hi, I am Jiahan Li (李嘉涵), also known as Ced. I am a CS Ph.D. student at <a href="https://cims.nyu.edu/dynamic/">NYU Courant</a>, advised by <a href="https://www.linkedin.com/in/rob-fergus-057808364/">Rob Fergus</a> and <a href="https://kyunghyuncho.me/">Kyunghyun Cho</a>.<br><br>
   
-  Previously, I earned my B.S. degree from Yuanpei College at Peking University in 2023. I also spent three years at an AI-biotech startup, where I worked with <a href="https://majianzhu.com/">Jianzhu Ma</a> and <a href="https://jianpeng.web.engr.illinois.edu/">Jian Peng</a>.<br><br> 
+  Previously, I earned my B.S. degree from Yuanpei College at Peking University in 2023. I also spent three years at an <a href="https://www.earendil.bio/">AI-biotech startup</a>, where I worked with <a href="https://majianzhu.com/">Jianzhu Ma</a> and <a href="https://jianpeng.web.engr.illinois.edu/">Jian Peng</a>.<br><br>
 
-  My research focuses on generative models for world modeling and multimodal learning, with a particular interest in incorporating scientific structure and prior knowledge.<br><br>
+  My research focuses on generative models for multimodal learning, world modeling, and AI for science, with a particular interest in incorporating scientific structure and prior knowledge.<br><br>
 
   Outside research, I produce hip-hop music and DJ.<br><br>
 
@@ -41,25 +41,25 @@ education:
   date: Sep. 2019 - Jul. 2023
 
 experience:
-- name: Peking University
-  logo: /assets/images/badges/PKU_red.png
-  position: Research Intern
-  date: Mar. 2021 - Aug. 2021
-
-- name: Helixon Inc. (Earendil Labs)
-  logo: /assets/images/badges/helixon.png
-  position: Research Engineer
-  date: Aug. 2021 - May. 2024
+- name: Google Research
+  logo: /assets/images/badges/google.png
+  position: Student Researcher
+  date: May. 2026 - Present
 
 - name: Tsinghua University
   logo: /assets/images/badges/THU_purple.png
   position: Research Engineer 
   date: June. 2024 - Present
 
-- name: Google Research
-  logo: /assets/images/badges/google.png
-  position: Student Researcher
-  date: May. 2026 - Present
+- name: Helixon Inc. (Earendil Labs)
+  logo: /assets/images/badges/helixon.png
+  position: Research Engineer
+  date: Aug. 2021 - May. 2024
+
+- name: Peking University
+  logo: /assets/images/badges/PKU_red.png
+  position: Research Intern
+  date: Mar. 2021 - Aug. 2021
 
 
 

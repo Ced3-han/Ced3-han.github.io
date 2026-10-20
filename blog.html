@@ -15,7 +15,7 @@ description: Research notes, technical writing, and occasional reflections from 
 {% if site.posts.size > 0 %}
 <div class="blog-grid">
     {% for post in site.posts %}
-    <a class="blog-card" href="{{ post.url | relative_url }}">
+    <a class="blog-card" href="{% if post.external_url %}{{ post.external_url }}{% else %}{{ post.url | relative_url }}{% endif %}">
         <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
         <h2>{{ post.title }}</h2>
         <p>{{ post.description | default: post.excerpt | strip_html | normalize_whitespace | truncate: 150 }}</p>

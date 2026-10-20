@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<!-- For a post that lives on another site: its own URL sends the visitor to page.external_url. -->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="canonical" href="{{ page.external_url }}">
+    <meta http-equiv="refresh" content="0; url={{ page.external_url }}">
+    <meta name="robots" content="noindex">
+    <script>location.replace({{ page.external_url | jsonify }});</script>
+</head>
+<body>
+    <p><a href="{{ page.external_url }}">{{ page.title }}</a></p>
+</body>
+</html>

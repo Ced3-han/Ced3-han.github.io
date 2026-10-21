@@ -19,9 +19,16 @@ github: Ced3-han
 short_bio: >-
   Hi, I am Jiahan Li (李嘉涵), also known as Ced—a name inspired by the <a href="https://www.nature.com/articles/33163">CED family of proteins</a>. I am a CS Ph.D. student at <a href="https://cims.nyu.edu/dynamic/">NYU Courant</a>, advised by <a href="https://www.linkedin.com/in/rob-fergus-057808364/">Rob Fergus</a> and <a href="https://kyunghyuncho.me/">Kyunghyun Cho</a>.<br><br>
   
-  Previously, I earned my B.S. degree from Yuanpei College at Peking University in 2023. I also spent three years at an <a href="https://www.earendil.bio/">AI-biotech startup</a>, where I worked with <a href="https://majianzhu.com/">Jianzhu Ma</a> and <a href="https://jianpeng.web.engr.illinois.edu/">Jian Peng</a>. I studied biology in high school and won a gold medal at the Chinese National Biology Olympiad.<br><br>
+  Previously, I earned my B.S. degree from Yuanpei College at Peking University in 2023. I also spent three years at <a href="https://www.earendil.bio/">Helixon (Earendil Labs)</a>, where I worked with <a href="https://jianpeng.web.engr.illinois.edu/">Jian Peng</a> and <a href="https://majianzhu.com/">Jianzhu Ma</a> on full-stack high-throughput antibody design and screening. In addition, I work closely with <a href="https://www.phys.tsinghua.edu.cn/phyen/info/1068/1453.htm">Wenhui Duan</a> on AI for materials discovery. I studied biology in high school and won a gold medal at the Chinese National Biology Olympiad.<br><br>
 
-  My research focuses on generative models for multimodal learning, world modeling, and AI for science, with a particular interest in incorporating scientific structure and prior knowledge.<br><br>
+  <strong>Research Interests</strong><br>
+  I build generative models and agentic systems for multimodal intelligence and AI for Science, with a focus on:
+  <ul>
+  <li><strong>Unified Multimodal Foundation Models:</strong> Native pre-training and post-training paradigms unifying perception and generation across language, vision, and molecular structures.</li>
+  <li><strong>Multimodal Agentic Systems:</strong> General-purpose agents capable of cross-modal reasoning (vision, DNA/genomics) and complex task generation (visual synthesis, drug discovery).</li>
+  <li><strong>Lab-in-the-Loop Scientific Discovery:</strong> LLMs and deep generative models for de novo biomolecular (proteins, RNA) and chemical (small molecules, materials) design integrated with wet-lab validation.</li>
+  <li><strong>Biosecurity &amp; AI Alignment:</strong> Safety evaluation, risk mitigation, and governance for frontier AI systems in biology and chemistry.</li>
+  </ul>
 
   Outside research, I'm a Hip-Hop producer and DJ. Some prod by me: <a href="https://www.bilibili.com/video/BV1fFC1BwEsL/?spm_id_from=333.337.search-card.all.click&amp;vd_source=8ba6457922f5c5309c67a7e905a420c8">PKU Cypher 2025</a>, <a href="https://www.bilibili.com/video/BV11w411G7th/?spm_id_from=333.337.search-card.all.click&amp;vd_source=8ba6457922f5c5309c67a7e905a420c8">PKU Cypher 2023</a>.<br><br>
 

@@ -216,6 +216,15 @@ img {
     font-weight: 700;
 }
 
+.profile-bio ul {
+    margin: 0.35rem 0 1.6rem;
+    padding-left: 1.25rem;
+}
+
+.profile-bio li {
+    margin-bottom: 0.3rem;
+}
+
 .profile-portrait {
     position: relative;
     margin: 0;
